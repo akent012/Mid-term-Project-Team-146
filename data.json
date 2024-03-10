@@ -1,0 +1,105 @@
+{
+    "movies": [
+      {
+        "ID": "1",
+        "title": "2012",
+        "runtime": "158 minutes",
+        "description": "A science fiction disaster film directed by Roland Emmerich. The movie depicts the events surrounding the prediction of the end of the world in the year 2012, as foretold by the Mayan calendar.",
+        "release": "November 13, 2009",
+        "rating": 6,
+        "source": "./images/2012.jpg",
+        "price" : 11.50
+      },
+      {
+        "ID": "2",
+        "title": "Aliens",
+        "runtime": "137 minutes",
+        "description": "A science fiction action horror film directed by James Cameron. It is the sequel to the 1979 film Alien and follows Ellen Ripley as she returns to the moon where her crew encountered the hostile Alien creature, this time accompanied by a unit of space marines.",
+        "release": "July 18, 1986",
+        "rating": 2,
+        "source": "./images/aliens.jpg",
+        "price" : 9.50
+      },
+      {
+        "ID": "3",
+        "title": "Bad boys",
+        "runtime": "118 minutes",
+        "description": "An action comedy film directed by Michael Bay. The movie follows two Miami detectives, Mike Lowrey and Marcus Burnett, as they investigate the theft of heroin from the police evidence storage.",
+        "release": "April 7, 1995",
+        "rating": 4,
+        "source": "./images/bad-boys.jpg",
+        "price" : 10.99
+      },
+      {
+        "ID": "4",
+        "title": "Catch Me If You Can",
+        "runtime": "141 minutes",
+        "description": "A biographical crime film directed by Steven Spielberg. The movie is based on the life of Frank Abagnale, who, before his 19th birthday, successfully performed cons worth millions of dollars by posing as a Pan American World Airways pilot, a Georgia doctor, and a Louisiana parish prosecutor.",
+        "release": "December 25, 2002",
+        "rating": 7,
+        "source": "./images/catch-me.jpg",
+        "price" : 12.99
+      },
+      {
+        "ID": "5",
+        "title": "Frozen",
+        "runtime": "102 minutes",
+        "description": "An animated musical fantasy film produced by Walt Disney Animation Studios. The movie tells the story of a fearless princess who sets off on a journey alongside a rugged iceman, his loyal reindeer, and a naive snowman to find her estranged sister, whose icy powers have inadvertently trapped their kingdom in eternal winter.",
+        "release": "November 27, 2013",
+        "rating": 8,
+        "source": "./images/frozen.jpg",
+        "price" : 14.99
+      },
+      {
+        "ID": "6",
+        "title": "Ice Age",
+        "runtime": "81 minutes",
+        "description": "An animated adventure comedy film directed by Chris Wedge and Carlos Saldanha. The movie follows a group of mammals surviving the Paleolithic ice age as they embark on a journey to return a human baby to its tribe.",
+        "release": "March 15, 2002",
+        "rating": 6,
+        "source": "./images/ice-age.jpg",
+        "price" : 11.50
+      },
+      {
+        "ID": "7",
+        "title": "Jaws",
+        "runtime": "124 minutes",
+        "description": "A thriller film directed by Steven Spielberg. The movie follows a giant man-eating great white shark that attacks beachgoers on Amity Island, prompting the local police chief to hunt it with the help of a marine biologist and a professional shark hunter.",
+        "release": "June 20, 1975",
+        "rating": 1,
+        "source": "./images/jaws.jpg",
+        "price" : 7.99
+      },
+      {
+        "ID": "8",
+        "title": "Titanic",
+        "runtime": "195 minutes",
+        "description": "A romance-disaster film directed, written, co-produced, and co-edited by James Cameron. The movie is based on the sinking of the RMS Titanic and follows the romantic relationship between two passengers from different social classes aboard the ill-fated ship.",
+        "release": "December 19, 1997",
+        "rating": 9,
+        "source": "./images/titanic.jpg",
+        "price" : 16.99
+      },
+      {
+        "ID": "9",
+        "title": "Venom",
+        "runtime": "112 minutes",
+        "description": "A superhero film directed by Ruben Fleischer. The movie is based on the Marvel Comics character Venom and follows journalist Eddie Brock as he gains superpowers after being bound to an alien symbiote.",
+        "release": "October 5, 2018",
+        "rating": 8,
+        "source": "./images/venom.jpg",
+        "price" : 14.99
+      },
+      {
+        "ID": "10",
+        "title": "Avengers Endgame",
+        "runtime": "181 minutes",
+        "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "release": "April 26, 2019",
+        "rating": 9,
+        "source": "./images/avengers.jpg",
+        "price" : 16.99
+        }
+    ]
+  }
+  

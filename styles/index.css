@@ -1,0 +1,186 @@
+/* Movie Card Styling */
+.movie-card {
+    position: relative;
+    background-color: #212020 !important; /* Dark background color */
+    padding: 20px; /* Increased padding for better spacing */
+    border-radius: 15px; /* Rounded corners for a more elegant look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+}
+
+/* Add hover effect */
+.movie-card:hover {
+    transform: translateY(-8px); /* Move the card slightly upwards */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+/* Button Visibility on Hover */
+.movie-card:hover .btn {
+    visibility: visible;
+}
+
+/* Theatrical Text Styling */
+.theatrical-text {
+    font-size: 2rem; /* Larger font size */
+    color: #e53238; /* Reddish color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
+    font-family: 'Cinzel Decorative', cursive; /* Decorative font */
+    font-weight: bold; /* Making it bold */
+}
+
+
+/* Custom Gray Button Styling */
+.custom-gray-button {
+    background-color: #808080; /* Gray background color */
+    color: #fff; /* White text color */
+    border-color: #808080; /* Matching border color */
+    font-size: 1.2rem; /* Larger font size */
+    padding: 10px 20px; /* Increased padding for better appearance */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.custom-gray-button:hover {
+    background-color: #666666; /* Darker shade of gray on hover */
+    border-color: #666666; /* Matching border color on hover */
+}
+
+/* Body Background Color */
+body {
+    background-color: #000000; /* Black background color */
+}
+
+.theatrical-heading {
+    color: #ff4f00; /* Deep orange color */
+    font-size: 3rem; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+    font-family: 'Cinzel', serif; /* Elegant serif font */
+    letter-spacing: 1px; /* Add letter spacing */
+}
+
+
+
+
+/* Theatrical Subheading Styling */
+.theatrical-subheading {
+    color: #00F4FF; /* Blue color */
+    font-size: 1.8rem; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+/* Theatrical Description Styling */
+.theatrical-description {
+    color: #ffffff; /* White color */
+    font-size: 1.3rem; /* Larger font size */
+    font-style: italic; /* Italic font style */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+.star-rating {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.star-rating img {
+    width: 40px; /* Adjust star icon size */
+    height: 40px;
+    margin-right: 5px; /* Adjust spacing between stars */
+}
+
+  
+  .button-header-active {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none !important; /* Remove underline */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.button-header-active:hover {
+    background-color: #c82333 !important; /* Darken color on hover */
+    transform: translateY(-3px); /* Move button slightly upwards on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.button-header-inactive {
+    background-color: #6c757d !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none !important; /* Remove underline */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.button-header-inactive:hover {
+    background-color: #5a6268 !important; /* Darken color on hover */
+    transform: translateY(-3px); /* Move button slightly upwards on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.button-header-active img,
+.button-header-inactive img {
+    margin-right: 10px !important; /* Add spacing between icon and text */
+}
+
+
+.animated-title {
+    display: inline-block;
+    overflow: hidden;
+    animation: slideIn 1.7s ease-in-out forwards; /* Use animation-fill-mode forwards */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes starScale {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Apply animation to the buttons */
+.button-slide {
+    animation: slideInFromRight 1.3s ease forwards;
+}
+
+/* Adjust animation delay for the second button */
+.button-slide:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
